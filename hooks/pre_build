@@ -1,2 +1,3 @@
 #!/bin/bash
-echo FROM jelastic/nginxphp:$DOCKER_TAG >> Dockerfile
+echo FROM jelastic/nginxphp:$DOCKER_TAG > Dockerfile
+echo LABEL deprecated=false nodeType=nginxphp-dockerized-old nodeTypeAlias=nginxphp-old >> Dockerfile

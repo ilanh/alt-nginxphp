@@ -1,1 +1,1 @@
-LABEL deprecated=false nodeType=nginxphp-dockerized-old nodeTypeAlias=nginxphp-old
+FROM jelastic/nginxphp:latest
